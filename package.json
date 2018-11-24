@@ -1,0 +1,60 @@
+{
+  "name": "css-at-supports-browser-h4cks-analyzer",
+  "version": "0.1.0",
+  "description": "A list of tests to determine whether a CSS @supports rule is considered a browser hack",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartveneman/css-at-supports-browser-h4cks-analyzer.git"
+  },
+  "keywords": [
+    "css",
+    "at-supports",
+    "supports",
+    "support",
+    "rule",
+    "at-rule",
+    "browser",
+    "hack",
+    "browserhacks",
+    "analyzer",
+    "complexity",
+    "projectwallace",
+    "wallace"
+  ],
+  "author": "Bart Veneman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartveneman/css-at-supports-browser-h4cks-analyzer/issues"
+  },
+  "homepage": "https://www.projectwallace.com/oss",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "prettier": "^1.15.2",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "prettier": true
+  },
+  "prettier": {
+    "useTabs": true,
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  }
+}
